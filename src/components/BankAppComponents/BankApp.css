@@ -1,0 +1,87 @@
+body {
+    padding:0;
+    margin: 0;
+    background-color: aliceblue;
+  }
+  
+  #h1 {
+    margin-left: 10px;   
+  }
+  
+  .clAcctContainer {
+    margin: 5px 5px 5px 5px;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    height: auto; 
+  }
+  
+  /*batched all parent divs to be rendered here*//*suspended applying these styles ifo of styles on line 155*/
+  /* .clAcctGen, .clTransactBar, .clAcctCard { 
+    margin: 5px 5px 5px 5px;
+    border-width: 1px;
+    border-style: solid;
+    height: auto; 
+  } */
+  
+  #idAcctGen, #idTrxBar, #idAcctCard, #idAcctEnquiry {
+    margin: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: auto; 
+    padding: 5px 5px 5px 5px;
+  }
+  
+  /* #idTrxBar {  //batched with similar elements on line 162
+    margin: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: auto; 
+    padding: 5px 5px 5px 5px;
+  } */
+  
+  /* #idAcctCard {  //batched with similar elements on line 162
+    margin: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: auto; 
+    padding: 5px 5px 5px 5px;
+  } */
+  
+  .clAcctInfoCard {
+    margin: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: 150px; 
+    width: 150px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: wheat;
+  }
+  
+  .clAcctCard {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: auto; 
+    padding: 5px 5px 5px 5px;
+  }
+  
+  .clBtn {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+  }
+  
+  .clBtnRed {
+    margin: 10px;
+    border-radius: 50px;
+    background-color: red;
+  }
+  
+  .clRedFonts {
+    background-color: red;
+    color: snow;
+  }

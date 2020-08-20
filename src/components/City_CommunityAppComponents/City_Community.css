@@ -1,0 +1,89 @@
+body {
+    padding:0;
+    margin: 0;
+    background-color: aliceblue;
+  }
+  
+  #h1 {
+    margin-left: 10px;   
+  }
+  
+    .clCityContainer {
+    margin: 5px 5px 5px 5px;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    height: auto; 
+  }
+  
+   #idCityGen, .clCityEnquiry, .clCityCard, .clCityEnquiry, .clCityMap {
+    margin: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: auto; 
+    padding: 5px 5px 5px 5px;
+  }
+  
+    .clCityInfoCard {
+    margin: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: auto; 
+    width: 150px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: khaki;
+  }
+
+  /* .clCardHover {
+    transform: scale(1.2);
+    transition: transform 1s;
+    cursor: pointer;
+  } */
+  
+  .clCityCard {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: auto; 
+    padding: 5px 5px 5px 5px;
+  }
+  
+  .clBtn {
+    margin: 10px;
+    border-radius: 5px;
+    background-color: skyblue;
+  }
+  
+  .clBtnRed {
+    margin: 10px;
+    border-radius: 50px;
+    background-color: red;
+  }
+
+  .clRedFonts {
+    background-color: red;
+    color: snow;
+  }
+  
+  /* --------------CityMap------------------- */
+  
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: auto;
+    width: auto;
+  }
+  
+  .gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: auto;
+    width: auto;
+  }
+  
+  
+  
+  
